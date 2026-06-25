@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎮 2048 — Data Structures Edition
+#  2048 — Data Structures Edition
 
 **The classic 2048 game — reimagined with an AI opponent, 2-player mode, achievements, and a live data structures visualizer.**
 
@@ -20,7 +20,7 @@
 
 ---
 
-## 🌟 Overview
+##  Overview
 
 This isn't your average 2048 clone. Built as a computer science coursework project, it layers a full feature set on top of the classic sliding tile game — including an **AI that plays against you**, a **2-player competitive mode**, an **achievements system**, and a dedicated page that **visualizes every data structure** powering the game under the hood.
 
@@ -28,44 +28,44 @@ The front-end is built with HTML, CSS, and JavaScript. The algorithmic back-end 
 
 ---
 
-## 🕹️ Game Modes
+##  Game Modes
 
 | Mode | Description |
 |---|---|
-| 🧍 Single Player | Classic 2048 — slide tiles, merge numbers, reach 2048 |
-| 👥 2 Player | Two boards side by side — race to the highest score |
-| 🤖 VS AI | Play against an AI solver that calculates the optimal move |
+|  Single Player | Classic 2048 — slide tiles, merge numbers, reach 2048 |
+|  2 Player | Two boards side by side — race to the highest score |
+|  VS AI | Play against an AI solver that calculates the optimal move |
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
-### 🖥️ Landing Page
+###  Landing Page
 ![Landing Page](screenshots/landing_page.png)
 
 ---
 
-### 🧍 Single Player
+###  Single Player
 ![Single Player](screenshots/single_player.png)
 
 ---
 
-### 👥 2 Player Mode
+### 2 Player Mode
 ![2 Player](screenshots/2_player.png)
 
 ---
 
-### 🤖 VS AI
+###  VS AI
 ![VS AI](screenshots/vs_ai.png)
 
 ---
 
-### 🏆 Achievements
+###  Achievements
 ![Achievements](screenshots/Achievements.png)
 
 ---
 
-### 🧠 Data Structures Used
+### Data Structures Used
 ![Data Structures](screenshots/Datastructures_used.png)
 
 ---
@@ -75,24 +75,24 @@ The front-end is built with HTML, CSS, and JavaScript. The algorithmic back-end 
 
 ---
 
-## 🧠 Data Structures Used
+## Data Structures Used
 
 Every data structure is implemented **from scratch** in JavaScript — no built-in shortcuts. A dedicated in-game page visualizes each one and explains how it contributes to the game.
 
 | Data Structure | File | Role in the Game |
 |---|---|---|
-| 🔗 Linked List | `linkedlist.js` | Tile chain traversal and merge sequencing |
-| 📚 Stack | `stack.js` | Undo/redo move history |
-| 🔁 Queue | `queue.js` | Move processing and animation queuing |
-| 🌳 Tree | `tree.js` | Game state hierarchy |
-| 🌲 Binary Search Tree | `bst.js` | Efficient score/tile lookup and ordering |
-| 🕸️ Graph | `graph.js` | Board connectivity and BFS/DFS traversal for AI |
+|  Linked List | `linkedlist.js` | Tile chain traversal and merge sequencing |
+|  Stack | `stack.js` | Undo/redo move history |
+|  Queue | `queue.js` | Move processing and animation queuing |
+|  Tree | `tree.js` | Game state hierarchy |
+|  Binary Search Tree | `bst.js` | Efficient score/tile lookup and ordering |
+|  Graph | `graph.js` | Board connectivity and BFS/DFS traversal for AI |
 
 > Each structure is fully custom — built without JavaScript's native Map, Set, or similar abstractions.
 
 ---
 
-## 🤖 AI Solver
+##  AI Solver
 
 The `ai.js` module powers the AI opponent in VS AI mode.
 
@@ -107,19 +107,19 @@ The AI processes the board as a **graph**, evaluating connected tiles and reacha
 
 ---
 
-## 🏆 Achievements System
+##  Achievements System
 
 The game tracks your progress and unlocks achievements as you play.
 
 | Achievement | Condition |
 |---|---|
-| 🥇 First Merge | Merge two tiles for the first time |
-| 🔢 Reach 256 | Get a tile to 256 |
-| 🔢 Reach 512 | Get a tile to 512 |
-| 🎯 Reach 1024 | Get a tile to 1024 |
-| 🏆 Reach 2048 | Beat the game |
-| ⚔️ Beat the AI | Win a round in VS AI mode |
-| 👥 2-Player Win | Win a 2-player match |
+|  First Merge | Merge two tiles for the first time |
+|  Reach 256 | Get a tile to 256 |
+|  Reach 512 | Get a tile to 512 |
+|  Reach 1024 | Get a tile to 1024 |
+|  Reach 2048 | Beat the game |
+|  Beat the AI | Win a round in VS AI mode |
+|  2-Player Win | Win a 2-player match |
 
 ---
 
@@ -135,7 +135,7 @@ The game tracks your progress and unlocks achievements as you play.
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 2048-Game/
@@ -165,7 +165,7 @@ The game tracks your progress and unlocks achievements as you play.
 
 ---
 
-## 🎮 How to Play
+##  How to Play
 
 1. Use **arrow keys** to slide all tiles in a direction
 2. Tiles with the **same number merge** when they collide
