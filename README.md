@@ -10,7 +10,11 @@
 [![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)](https://isocpp.org/)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org/)
 
-*A CS coursework project by **Syed Turab Rizvi** created in a group with teamleader being a**friend***
+*A CS coursework project by **Syed Turab Rizvi** with Team Leader being a **Friend***
+
+---
+
+![Landing Page](screenshots/landing_page.png)
 
 </div>
 
@@ -35,6 +39,11 @@ The front-end is built with HTML, CSS, and JavaScript. The algorithmic back-end 
 ---
 
 ## 📸 Screenshots
+
+### 🖥️ Landing Page
+![Landing Page](screenshots/landing_page.png)
+
+---
 
 ### 🧍 Single Player
 ![Single Player](screenshots/single_player.png)
